@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "ts-node --project tsconfig.server.json server/index.ts",
     "build": "next build",
-    "start": "next start",
+    "start": "ts-node --project tsconfig.server.json server/index.ts",
     "type-check": "tsc"
   },
   "dependencies": {
