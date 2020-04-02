@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "ts-node --project tsconfig.server.json server/index.ts",
-    "build": "next build && ts-node --project tsconfig.server.json server/index.ts",
+    "build": "next build",
     "start": "next start",
     "type-check": "tsc"
   },
