@@ -1,0 +1,51 @@
+.wrap {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.layer,
+.current {
+  padding: 10px;
+  cursor: all-scroll;
+  padding-left: 30px;
+  position: relative;
+  transition: background .3s;
+}
+
+.layer:hover {
+  background-color: #f0f0f0;
+}
+
+.current:hover .close {
+  visibility: visible;
+}
+
+.current {
+  color: #fff;
+  background-color: #5c6ac4;
+  &:hover {
+    background-color: #404da0;
+  }
+  svg {
+    fill: #fff;
+  }
+}
+
+.drag {
+  position: absolute;
+  top: 11px;
+  left: 5px;
+}
+
+.edit,
+.del {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+
+.edit {
+  top: 11px;
+  right: 30px;
+}

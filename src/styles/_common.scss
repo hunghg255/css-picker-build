@@ -1,0 +1,49 @@
+pre {
+  white-space: pre-wrap;
+}
+
+.preview-text {
+  font-size: 80px;
+  line-height: 1;
+  padding: 30px 0;
+  transition: .3s;
+}
+
+.preview-box {
+  height: 100%;
+  background: rgb(61, 157, 246);
+  transition: .3s;
+}
+
+.template {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.template__global:not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+.template__global {
+  background-color: rgb(121, 223, 241);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.template__global:hover {
+  border: 1px solid rgb(153, 0, 255);
+}
+
+.template__1 {
+  box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, rgba(0, 0, 0, 0) 5px 5px 1px 14px inset;
+}
+
+.template__2 {
+  box-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, red 0px -18px 40px, rgba(0, 0, 0, 0) 5px 5px 1px 14px inset;
+}
+
+.sortable-ghost {
+  background-color: #FFEA8A;
+}

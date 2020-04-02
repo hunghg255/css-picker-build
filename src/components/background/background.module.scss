@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+._dropzone {
+    width: 45%;
+}
+
+.preview {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    .img {
+        width: 100%;
+        z-index: -11;
+        position: relative;
+    }
+}
+
+.template {
+    display: flex;
+    .t__item {
+        width: 40px;
+        height: 40px;
+        margin-right: 2rem;
+        border: 1px solid rgba(255, 0, 0, 0.356);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,21 @@
+.inlineWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttonOption {
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #F4F5FA;
+  transition: background .3s;
+
+  &:hover {
+    background-color: #FCF1CD;
+  }
+  &.active1 {
+    background-color: #B3BCF5
+  }
+}
+

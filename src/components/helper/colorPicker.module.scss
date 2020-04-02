@@ -1,0 +1,30 @@
+.popover {
+  position: absolute;
+  z-index: 2;
+}
+
+.cover {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.currentColor {
+  border: 1px solid #dfe3e8;
+  padding: 3px;
+  height: 32px;
+  width: 48px;
+  border-radius: 3px;
+
+  &:hover {
+    border-color: #d5d6d6;
+  }
+
+  span {
+    display: block; cursor: pointer;
+    width: 40px; height: 24px;
+    border-radius: 2px;
+  }
+}
